@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+/*contact form 1 config*/
+#container {
+    width: 598px;
+    height: 495px;
+    background-color: rgba(22, 42, 227, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-contact {
+    position: absolute;
+    left: 78px;
+    top: 96px;
+    width: 441px;
+    height: 303px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.requirement-1 h2 {
+    font-size: 37px;
+    font-weight: bold;
+    margin: 0px;
+}
+.requirement-1 h3 {
+    
+    box-shadow: 10px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.requirement-1 {
+    gap: 10px;
+    text-align: center;
+    color: white;
+    grid-column: 1/3;
+}
+#nombre,
+#correo {
+    width: 212px;
+    height: 43px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    opacity: 100%;
+    border: 0px;
+    padding: 10px;
+}
+#nombre{
+    margin-right: 22px;
+}
+#celular {
+    grid-column: 1/3;
+    height: 43px;
+    border-radius: 6px;
+    opacity: 100%;
+    border: 0px;
+    padding: 10px;
+}
+
+#subir {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    border-radius: 6px;
+    color: rgba(22, 42, 227, 0.85);
+    width: 127px;
+    height: 47px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*Contact form 2 config*/
+#second-body {
+    background-color: rgba(174, 211, 207, 1);
+}
+small {
+    position: relative;
+    left: 257px;
+    top: 80px;
+    color: rgba(50, 49, 47, 0.663);
+}
+#container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 998px;
+    height: 518px;
+    background-color: rgba(242, 237, 230, 1);
+    border-radius: 30px;
+    position: relative;
+    left: 257px;
+    top: 80px;
+}
+#content-2 {
+    position: absolute;
+    left: 408px;
+    top: 74px;
+}
+#container-2 > img {
+    position: absolute;
+    left: 78px;
+    top: 63px;
+    width: 264px;
+    height: 403px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+#container-2 p {
+    font-family: Georgia, serif;
+    font-size: 54px;
+    color: rgba(0, 5, 75, 1);
+    margin-top: 0px;
+    margin-bottom: 46px;
+}
+.second-inputs {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(40px, auto));
+    gap: 20px;
+}
+.second-inputs > input,
+.second-inputs > textarea {
+    width: 192px;
+    height: 37px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 2, 75, 1);
+    outline: none;
+    background: transparent;
+    border-radius: 0px;
+}
+.second-inputs > input::placeholder,
+.second-inputs > textarea::placeholder {
+    font-family: 'Segoe UI', sans-serif;
+    color: rgba(0, 2, 75, 0.5);
+    font-size: 15px;
+}
+.second-inputs > button {
+    background-color: rgba(0, 5, 75, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 23px;
+    width: 179px;
+    height: 37px;
+    font-size: 12px;
+}
+#Logos-FIT img {
+    position: absolute;
+    bottom: -12px;
+    width: 130px;
+    height: 23px;
+}
+#Contact-info {
+    position: absolute;
+    left: 377px;
+    top: 90px;
+    width: 131px;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 5, 75, 1);
+}
+#Contact-info p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+#Contact-info h4 {
+    font: bold;
+    margin-bottom: 1px;
+}
+/*Contact form 3 config*/
+#body-f-3 {
+    background-color: rgba(220, 220, 220, 1);
+    font-family: 'Montserrat', sans-serif;
+}
+#body-f-3 h2 {
+    color: rgba(17, 24, 39, 1);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0px;
+}
+#body-f-3 p {
+    color: rgba(17, 24, 39, 1);
+    font-size: 16px;
+    line-height: 22px;
+   
+}
+#main-f-3 {
+    width: 886px;
+    height: 598px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 305px;
+    top: 45px;
+}
+#title-f-3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#container-f-3 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#form-3-left,
+#form-3-right {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(40px, auto));
+    width: 383px;
+}
+#container-f-3 input,
+#container-f-3 textarea,
+#container-f-3 select {
+   
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: rgba(246, 249, 255, 1);
+   
+}
+#container-f-3 input {
+    height: 51px;
+    color: rgba(200, 200, 200, 1);
+}
+#container-f-3 select {
+    height: 51px;
+}
+#container-f-3 label {
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1.5%;
+    line-height: 150%;
+}
+
+#button-f-3 {
+    width: 154px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: rgba(59, 130, 246, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+/* Form 4 config*/
+#form-4{
+    background-color: rgba(245, 245, 245, 1);
+}
+#container-f-4{
+    background-color: rgba(252, 252, 252, 1);
+    border: 3px solid rgba(237, 222, 222, 1);
+    border-radius: 12px;
+    width: 535px;
+    height: 395px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+#container-f-4 label{
+    font-family: "Georgia", serif;
+    font-size: 11px;
+    width: 87px;
+    height: 16px;
+    margin-left: 20px;
+}
+#container-f-4 h1{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+    width: 167px;
+    height: 17px;
+    margin-left: 20px;
+}
+#container-f-4 input,
+#container-f-4 textarea,
+#container-f-4 select {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    color: rgba(120, 118, 118, 1);
+    margin-left: 20px;
+}
+#container-f-4 input,
+#container-f-4 select {
+    border: 1px solid rgba(210, 210, 210, 1);
+    width: 221px;
+    height: 17px;
+    border-radius: 3px;
+
+}
+#container-f-4 textarea{
+    border-radius: 3px;
+    border:1px solid rgba(210, 210, 210, 1);
+    height: 60px;
+    width: 494px;
+}
+#f-4-Name{
+    grid-row: 2/3;
+}
+#f-4-Email{
+    grid-row: 3/4;
+}
+#f-4-Address{
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+#f-4-City{
+    grid-row: 6/7;
+}
+#f-4-Date{
+    grid-row: 7/8;
+}
+#Last-f-4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#Role-f-4{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#Pincode-f-4{
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+#CV-f-4{
+    grid-column: 2/3;
+    grid-row: 7/9;
+}
+#f-4-button{
+        width: 134px;
+        height: 31px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgba(27, 82, 223, 1);
+        color: rgba(245, 245, 245, 1);
+        font-size: 16px;
+        grid-row: 8/9;
+        grid-column: 2/3;
+        margin-top: 30px;
+        margin-left: 100px;
+}
